@@ -4,16 +4,25 @@ A collection of CSS stylesheets served via free CDN for easy integration into yo
 
 ## Available Stylesheets
 
-- `github-markdown.css` - GitHub-flavored Markdown styling
+- `github-markdown.css` - GitHub-flavored Markdown styling with white background
+- `dhdhagar.vscode-md-preview-light.css` - VS Code Markdown Preview Light theme
+- `mahonnaise.vs-code-markdown-theme.css` - VS Code Markdown theme
 
 ## Usage
 
 ### jsDelivr CDN (Recommended)
 
-Include the stylesheet in your HTML:
+Include any stylesheet in your HTML:
 
 ```html
+<!-- GitHub Markdown styling -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Gekyzo/stylesheet-cdn@main/styles/github-markdown.css">
+
+<!-- VS Code Markdown Preview Light -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Gekyzo/stylesheet-cdn@main/styles/dhdhagar.vscode-md-preview-light.css">
+
+<!-- VS Code Markdown theme -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Gekyzo/stylesheet-cdn@main/styles/mahonnaise.vs-code-markdown-theme.css">
 ```
 
 ### Version-specific URLs
@@ -23,18 +32,6 @@ For production use, it's recommended to use tagged versions:
 ```html
 <!-- Replace v1.0.0 with the specific version you want -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Gekyzo/stylesheet-cdn@v1.0.0/styles/github-markdown.css">
-```
-
-### Alternative CDN Options
-
-**GitCDN:**
-```html
-<link rel="stylesheet" href="https://gitcdn.link/repo/Gekyzo/stylesheet-cdn/main/styles/github-markdown.css">
-```
-
-**raw.githack.com:**
-```html
-<link rel="stylesheet" href="https://raw.githack.com/Gekyzo/stylesheet-cdn/main/styles/github-markdown.css">
 ```
 
 ## How It Works
