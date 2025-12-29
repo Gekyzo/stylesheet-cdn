@@ -7,6 +7,7 @@ A collection of CSS stylesheets served via free CDN for easy integration into yo
 - `github-markdown.css` - GitHub-flavored Markdown styling with white background
 - `dhdhagar.vscode-md-preview-light.css` - VS Code Markdown Preview Light theme
 - `mahonnaise.vs-code-markdown-theme.css` - VS Code Markdown theme
+- `monokai-dimmed-light.css` - Light theme for markdown with Monokai Dimmed syntax highlighting for code
 
 ## Usage
 
@@ -23,6 +24,9 @@ Include any stylesheet in your HTML:
 
 <!-- VS Code Markdown theme -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Gekyzo/stylesheet-cdn@main/styles/mahonnaise.vs-code-markdown-theme.css">
+
+<!-- Monokai Dimmed Light theme -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Gekyzo/stylesheet-cdn@main/styles/monokai-dimmed-light.css">
 ```
 
 ### Version-specific URLs
