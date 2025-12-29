@@ -159,7 +159,7 @@ pre {
   overflow: auto;
   font-size: 85%;
   line-height: 1.45;
-  background-color: #272822;
+  background-color: #1e1e1e;
   border-radius: 6px;
 }
 
@@ -172,93 +172,187 @@ pre code {
   background-color: transparent;
   border: 0;
   border-radius: 0;
-  color: #f8f8f2;
+  color: #c5c8c6;
   font-size: 100%;
 }
 
 /* Monokai Dimmed Syntax Highlighting */
 pre code .hljs {
-  background: #272822;
-  color: #f8f8f2;
+  background: #1e1e1e;
+  color: #c5c8c6;
 }
 
 /* Comments */
 pre code .hljs-comment,
 pre code .hljs-quote {
-  color: #75715e;
-  font-style: italic;
-}
-
-/* Keywords, Control Flow */
-pre code .hljs-keyword,
-pre code .hljs-selector-tag,
-pre code .hljs-literal,
-pre code .hljs-section,
-pre code .hljs-link {
-  color: #f92672;
-}
-
-/* Functions */
-pre code .hljs-function,
-pre code .hljs-title {
-  color: #a6e22e;
+  color: #9a9b99;
 }
 
 /* Strings */
 pre code .hljs-string,
 pre code .hljs-regexp,
 pre code .hljs-addition,
-pre code .hljs-attribute,
 pre code .hljs-meta-string {
-  color: #e6db74;
+  color: #9aa83a;
+}
+
+/* String embedded source */
+pre code .hljs-string.source {
+  color: #d08442;
 }
 
 /* Numbers */
 pre code .hljs-number,
 pre code .hljs-built_in,
-pre code .hljs-builtin-name,
-pre code .hljs-literal {
-  color: #ae81ff;
+pre code .hljs-builtin-name {
+  color: #6089b4;
 }
 
-/* Classes, Types */
+/* Constants */
+pre code .hljs-literal,
+pre code .hljs-constant.language {
+  color: #408080;
+}
+
+/* Other constants */
+pre code .hljs-constant.character,
+pre code .hljs-constant.other {
+  color: #8080ff;
+}
+
+/* Support (built-ins) */
+pre code .hljs-support {
+  color: #c7444a;
+}
+
+/* Storage (keywords like var, let, const, function) */
+pre code .hljs-keyword,
+pre code .hljs-storage {
+  color: #676867;
+}
+
+/* Classes, Types, Namespaces */
 pre code .hljs-class,
 pre code .hljs-type,
-pre code .hljs-params {
-  color: #66d9ef;
+pre code .hljs-name.class,
+pre code .hljs-name.type,
+pre code .hljs-name.namespace {
+  color: #9b0000;
 }
 
-/* Variables, Attributes */
+/* Inherited class, namespace separator */
+pre code .hljs-class.inherited,
+pre code .hljs-punctuation.separator.namespace {
+  color: #c7444a;
+}
+
+/* Functions */
+pre code .hljs-function,
+pre code .hljs-title,
+pre code .hljs-name.function {
+  color: #ce6700;
+}
+
+/* Parameters */
+pre code .hljs-params,
+pre code .hljs-variable.parameter {
+  color: #6089b4;
+}
+
+/* Support functions */
+pre code .hljs-support.function {
+  color: #9872a2;
+}
+
+/* Variables */
 pre code .hljs-variable,
-pre code .hljs-template-variable,
+pre code .hljs-variable.other,
 pre code .hljs-attr {
-  color: #fd971f;
+  color: #6089b4;
+}
+
+/* Properties */
+pre code .hljs-variable.property,
+pre code .hljs-property {
+  color: #9872a2;
+}
+
+/* Control keywords */
+pre code .hljs-keyword.control,
+pre code .hljs-keyword.operator {
+  color: #9872a2;
 }
 
 /* Tags (HTML/XML) */
-pre code .hljs-tag,
-pre code .hljs-name {
-  color: #f92672;
+pre code .hljs-tag {
+  color: #d0b344;
 }
 
-/* Operators */
-pre code .hljs-operator,
-pre code .hljs-symbol,
-pre code .hljs-bullet,
-pre code .hljs-selector-class,
+pre code .hljs-tag .hljs-name {
+  color: #6089b4;
+}
+
+/* Doctype */
+pre code .hljs-meta.doctype {
+  color: #9aa83a;
+}
+
+/* Tag attributes */
+pre code .hljs-attribute,
+pre code .hljs-attr {
+  color: #d0b344;
+}
+
+/* Tag attribute values */
+pre code .hljs-tag .hljs-string {
+  color: #6089b4;
+}
+
+/* CSS selectors */
 pre code .hljs-selector-id {
-  color: #f92672;
+  color: #9872a2;
 }
 
-/* Meta, Preprocessor */
-pre code .hljs-meta,
-pre code .hljs-meta-keyword {
-  color: #66d9ef;
+pre code .hljs-selector-class,
+pre code .hljs-selector-tag {
+  color: #676867;
 }
 
-/* Deletion */
-pre code .hljs-deletion {
-  color: #f92672;
+/* CSS property names */
+pre code .hljs-attribute.css,
+pre code .hljs-property.css {
+  color: #676867;
+}
+
+/* CSS property values */
+pre code .hljs-property-value,
+pre code .hljs-constant.property-value {
+  color: #c7444a;
+}
+
+/* Template expressions */
+pre code .hljs-template-expression,
+pre code .hljs-punctuation.definition.template-expression {
+  color: #d08442;
+}
+
+/* Invalid */
+pre code .hljs-invalid {
+  color: #ff0b00;
+}
+
+/* Diff/Markup */
+pre code .hljs-deletion,
+pre code .hljs-markup.deleted {
+  color: #dc322f;
+}
+
+pre code .hljs-markup.changed {
+  color: #cb4b16;
+}
+
+pre code .hljs-markup.inserted {
+  color: #219186;
 }
 
 /* Emphasis */
